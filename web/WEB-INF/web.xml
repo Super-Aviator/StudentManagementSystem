@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <!--测试-->
+    <!--<servlet>-->
+        <!--<servlet-name >MyFirstServlet</servlet-name>-->
+        <!--<servlet-class>test.MyFirstServlet</servlet-class>-->
+
+        <!--<init-param>-->
+            <!--<param-name>username</param-name>-->
+            <!--<param-value>root</param-value>-->
+        <!--</init-param>-->
+
+        <!--<init-param>-->
+        <!--<param-name>password</param-name>-->
+        <!--<param-value>6504110130xqk</param-value>-->
+        <!--</init-param>-->
+
+        <!--<load-on-startup>2</load-on-startup>-->
+    <!--</servlet>-->
+
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>MyFirstServlet</servlet-name>-->
+        <!--<url-pattern>/MyFirstServlet</url-pattern>-->
+    <!--</servlet-mapping>-->
+
+    <!--<context-param>-->
+        <!--<param-name>overall</param-name>-->
+        <!--<param-value>overall-value</param-value>-->
+    <!--</context-param>-->
+
+
+    <!--<servlet>-->
+        <!--<servlet-name>MySecondServlet</servlet-name>-->
+        <!--<servlet-class>test.MySecondServlet</servlet-class>-->
+    <!--</servlet>-->
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>MySecondServlet</servlet-name>-->
+        <!--<url-pattern>/MySecondServlet</url-pattern>-->
+    <!--</servlet-mapping>-->
+
+
+
+    <!--工程-->
+    <servlet>
+        <servlet-name>Register</servlet-name>
+        <servlet-class>modules.Register</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Register</servlet-name>
+        <url-pattern>/Register</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>modules.Login</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetScore</servlet-name>
+        <servlet-class>modules.GetScore</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetScore</servlet-name>
+        <url-pattern>/GetScore</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetStudentInformation</servlet-name>
+        <servlet-class>modules.GetStudentInformation</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetStudentInformation</servlet-name>
+        <url-pattern>/GetStudentInformation</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ModifyInformation</servlet-name>
+        <servlet-class>modules.ModifyInformation</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ModifyInformation</servlet-name>
+        <url-pattern>/ModifyInformation</url-pattern>
+    </servlet-mapping>
+
+</web-app>
