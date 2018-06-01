@@ -73,7 +73,7 @@ public class AccountOperate {
     public static void main(String[] args) {
         //测试注册
         try{
-            if(register("6504110130","6504110130xqk"))
+            if(register("6504110130","65"))
                 System.out.println("成功");
             else    System.out.println("失败");
         }catch(SQLException e){
@@ -84,7 +84,7 @@ public class AccountOperate {
 
         //测试登录
         try {
-            if (login("6504110130", "6504110130xqk"))
+            if (login("6504110130", "6"))
                 System.out.println("成功");
             else System.out.println("失败");
         } catch (SQLException e) {
